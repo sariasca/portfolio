@@ -2,9 +2,9 @@
 
 @theme {
   /* Color Palette */
-  --color-border: hsl(var(--border), 0%, 80%);
-  --color-background: hsl(var(--background), 0%, 100%);
-  --color-foreground: hsl(var(--foreground), 0%, 10%);
+  --color-border: hsl(var(--border));
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
 
   --color-primary: hsl(var(--primary), 100%, 50%);
   --color-primary-foreground: hsl(var(--primary-foreground), 100%, 50%);
