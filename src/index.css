@@ -6,10 +6,10 @@
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
 
-  --color-primary: hsl(var(--primary), 100%, 50%);
-  --color-primary-foreground: hsl(var(--primary-foreground), 100%, 50%);
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
 
-  --color-card: hsl(var(--card), 0%, 100%);
+  --color-card: hsl(var(--card));
 
   /* Animations */
 
@@ -185,7 +185,8 @@
   background: linear-gradient(90deg, white 0%, rgba(255,255,255,0.7) 40%, transparent 100%);
   box-shadow: 0 0 20px 5px rgba(255,255,255,0.6);
   filter: blur(0.5px);
-    
+  
+  
   /* This creates a triangular shape that resembles a meteor */
   clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
 }
