@@ -128,7 +128,7 @@
 
 @utility container {
   margin-inline: auto;
-  padding-left: 2rem;
+  padding-inline: 2rem;
 
   @media (width >= 640px) {
     max-width: 640px;
@@ -163,7 +163,7 @@
 
 @utility gradient-border {
   @apply relative rounded-md;
-  background: linear-gradient(to right, hsl(var(--card), hsl(var(--card))));
+  background: linear-gradient(to right, hsl(var(--card)), hsl(var(--card)));
   background-clip: padding-box;
   border: 1px solid transparent;
 }
